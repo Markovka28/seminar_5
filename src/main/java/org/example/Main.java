@@ -19,7 +19,6 @@ public class Main {
         Controller controller = new Controller();
         Study_Group group = controller.add_group(teacher, students);
 
-        System.out.println("Класс с учителем " + group.teacher().name() + " и " +
-                group.students().size() + " обучающимися образована: " + sdf.format(currentDate));
+        System.out.println(STR."Класс с учителем \{group.teacher().name()} и \{group.students().size()} обучающимися образована: \{sdf.format(currentDate)}");
     }
 }

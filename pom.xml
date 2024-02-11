@@ -6,7 +6,29 @@
 
     <groupId>org.example</groupId>
     <artifactId>S_5</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>3.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>my-app</name>
+    <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.22</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.3.22</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>5.3.22</version>
+        </dependency>
+        <!-- другие зависимости Spring, которые вам могут понадобиться -->
+    </dependencies>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -14,4 +36,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+
 </project>
+
