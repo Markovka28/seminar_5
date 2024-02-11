@@ -7,7 +7,7 @@ Training_Group_Service передан в конструктор Controller вм�
   public Controller(Training_Group_Service training_group_service) {
           this.training_group_service = training_group_service;
   
-вместе
+Вместо
  
 public Controller() {
 training_group_service = new Training_Group_Service();
